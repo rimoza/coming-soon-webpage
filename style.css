@@ -12,9 +12,20 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size:center;
-  background-repeat:repeat-y;
-  /* background-position:center; */
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    display: none;
+  }
 }
 
 a {
