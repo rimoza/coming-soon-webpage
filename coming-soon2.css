@@ -1,6 +1,6 @@
 
   .coming_soon {
-    background: url("src/assets/GurukuL/Coming.jpg") !important;
+    background: url("./img/1.jpg") !important;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -38,7 +38,7 @@
   .bi-instagram:hover {
     transform: scale(1.2);
   }
-  .bi-envelope {
+  .bi-instagram {
     font-size: 25px;
     color: #fff;
     background: #d44638;
@@ -48,7 +48,7 @@
     font-size: 18px;
     display: none;
   }
-  .bi-envelope:hover .email {
+  .bi-instagram:hover .email {
     display: inline-block;
   }
   .big{

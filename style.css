@@ -8,11 +8,13 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
   line-height: 1;
-  background-image: url(./img/AdobeStock_280279207.jpeg);
+  background-image: url(./img/1.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size:center;
+  background-repeat:repeat-y;
+  /* background-position:center; */
 }
 
 a {
@@ -20,28 +22,38 @@ a {
 }
 .fa-facebook,
 .fa-twitter,
-.fa-telegram {
+.fa-instagram,
+.fa-linkedin {
   margin-top: 20px !important;
-  margin-right: 20px;
+  margin-right: 5px;
   font-size: 25px !important;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .fa-facebook {
-  color: #3b5998;
+  color: #efa003;
 }
 .fa-facebook:hover {
   transform: scale(1.2);
 }
 .fa-twitter {
-  color: #00acee;
+  color: #efa003;
 }
 .fa-twitter:hover {
   transform: scale(1.2);
 }
-.fa-telegram {
-  color: #0088cc;
+.fa-instagram {
+  color: #efa003;
 }
-.fa-telegram:hover {
+.fa-instagram:hover {
+  transform: scale(1.2);
+}
+.fa-linkedin {
+  color: #efa003;
+}
+.fa-linkedin:hover {
   transform: scale(1.2);
 }
 .fa-envelope {
