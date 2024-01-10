@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   font-family: "Roboto Condensed", sans-serif;
   line-height: 1;
   background-image: url(./img/1.jpg);
@@ -13,20 +13,26 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* background-repeat: no-repeat; */
+  background-position: center;
+  min-height: 100vh;
+  background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 768px) {
   body {
-    background-size: 100% 100%;
+    background-size: 45rem;
+    min-height: 40rem;
   }
 }
-
-@media only screen and (max-width: 600px) {
+*/ 
+body {
+  background: radial-gradient(circle, #efa003, #000000);
+}
+ @media only screen and (max-width: 600px) {
   .logo {
     display: none;
   }
-}
+} 
 
 a {
   background: transparent;
